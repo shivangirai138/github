@@ -1,4 +1,3 @@
-
 body
 {
     margin: 0;
@@ -8,10 +7,15 @@ body
 .header {
     padding: 60px;
     text-align: centre;
-    background: #labc9c;
+    background: #ffff;
     color: white;
     font-size: 30px;
 }
+header h1 
+{
+    text-align: center;
+}
+
 .fold
 {
     position: absolute;
@@ -19,6 +23,7 @@ body
     left: 50%;
     transform: translate(-50%,-50%) skewY(0deg) rotateY(0deg);
     width: 500px;
+    max-width: 500px;
     height: 400px;
     background: url(image.jpg);
     background-size: cover;

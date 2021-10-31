@@ -5,14 +5,21 @@ body
     padding: 0;
     overflow: hidden;
 }
+.header {
+    padding: 60px;
+    text-align: centre;
+    background: #labc9c;
+    color: white;
+    font-size: 30px;
+}
 .fold
 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) skewY(0deg) rotateY(0deg);
-    width: 120px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
     background: url(image.jpg);
     background-size: cover;
     background-position: center;
